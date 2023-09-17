@@ -37,6 +37,7 @@ function output_data = Lab2Experiment()
         h3.XData(end+1:end+N) = t;   % Update subplot 3
         h3.YData(end+1:end+N) = curr;
 
+        xlim([0 t(end)])
     end
     
     frdm_ip  = '192.168.1.100';       % Nucleo board ip
