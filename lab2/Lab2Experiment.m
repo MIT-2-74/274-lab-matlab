@@ -40,7 +40,7 @@ function output_data = Lab2Experiment()
         xlim([0 t(end)])
     end
     
-    frdm_ip  = '192.168.1.200';       % Nucleo board ip
+    frdm_ip  = '192.168.1.100';       % Nucleo board ip
     frdm_port = 11223;                % Nucleo board port  
     params.callback = @data_callback; % callback function
     params.timeout  = 2;              % end of experiment timeout
